@@ -118,7 +118,8 @@ const backToShop2 = document.querySelector('.backToShop2')
 let chosenProduct
 let cartArr = []
 let totalAmount = 0
-
+console.log("labas")
+console.log("hello")
 
 const switchingPages = {
 
@@ -205,6 +206,7 @@ function showSingleItem(event){
 /////////////////////////////////////////
 
 function addToCart(){
+
     if(chosenProduct.stock > 0){
         chosenProduct.stock--
 
