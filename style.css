@@ -1,0 +1,410 @@
+
+/*/////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////*/
+/*///////////////////// 11.18 ///////////////////////////////////*/
+/*<!--//////////////// E-SHOP ////////////////////////////////-->*/
+
+/* GLOBAL STYLES */
+.f-end{
+    justify-content: flex-end;
+}
+
+.f-start{
+    justify-content: flex-start;
+}
+
+.container{
+    font-family: 'Oswald', sans-serif;
+    width: 1200px;
+    /* position: relative; */
+}
+.d-flex{
+    display: flex;
+}
+
+header{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px 30px 25px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    top: 0;
+    background-color: white;
+}
+
+.bar1{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.header-icons{
+    margin: 0 5px;
+}
+
+.shopName{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+main{
+    display: none;
+    justify-content: center;
+    height: 510px;
+    width: 100vw;
+    background-color: rgb(206, 217, 219);
+}
+
+.btn-home{
+    width: 300px;
+    height: 60px;
+    background-color: #fa5b2f;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    top: 450px;
+}
+
+.btn-home:hover{
+    background-color: white;
+    color: #fa5b2f;
+}
+
+.bubbleBox{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 540px;
+    left: 60px;
+}
+
+.bubble{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+}
+
+.bubble:hover{
+    background-color: black;
+}
+
+.bcg-orange{
+    background-color: #fa5b2f;
+}
+
+.bcg-white{
+    background-color: white;
+}
+
+
+/* NAVIGATION */
+
+nav{
+    display: none;
+    width: 100vw;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+}
+
+.navPage{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    color: white;
+    z-index: 5;
+}
+
+.navPage2{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-color: #000000;
+}
+
+
+.sideBar{
+    margin-left: 100px;
+}
+
+.sidebarLine{
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 13px 13px 13px 0;
+}
+
+.x-style{
+    margin: 20px 40px 30px 300px;
+}
+
+.color-or{
+    color: #fa5b2f;
+}
+
+
+
+
+/*!*SHOP*!//////////////////////////////////////*/
+
+.shop{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: #f6f6f6;
+}
+
+
+.shoesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px 20px 20px 20px;
+    background-color: #f6f6f6;
+
+}
+
+.shoeBox{
+    height: 380px;
+    width: 380px;
+    background-color: #f6f6f6;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shoeBox:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 3px 8px 5px rgb(189, 187, 187);
+}
+
+.imgDiv{
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.productName{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    height: 30px;
+    margin: 20px 0 0 0;
+}
+
+.productPrice{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 25px;
+    margin: 5px;
+    color: #fa5b2f;
+}
+
+/*///////////////////////////////////////////*/
+/* ///// PRODUCT PAGE ////////*/
+
+
+
+
+.productPage{
+    display: none;
+    justify-content: center;
+    height: 700px;
+    width: 100vw;
+}
+
+.shoeSide{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(230, 238, 240);
+    width: 50%;
+}
+
+
+
+.mainPhoto{
+    width: 550px;
+    height: 100%;
+}
+
+.addPhotos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.smallPhoto{
+    height: 60px;
+    width: 80px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+
+
+
+.featuresSide{
+    height: 100%;
+    background-color: white;
+    width: 50%;
+}
+
+.fSideDiv{
+    margin: 80px;
+}
+
+.selectSize{
+    border: 1px solid rgb(184, 181, 181);
+    width: 100%;
+    height: 20px;
+    margin: 10px 0;
+}
+
+.toCartBtn{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*////////////////////////////////////*/
+
+
+
+
+.shoppingCartPage{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 100vw;
+}
+
+.upperPart{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shoeBoxInCart{
+    display: flex;
+    justify-content: center;
+    height: 440px;
+    width: 400px;
+    background-color: #f6f6f6;
+    margin: 10px;
+}
+
+.allItemInfo{
+    height: 400px;
+    width: 350px;
+    background-color: #f6f6f6;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.imgCart{
+    height: 230px;
+    width: 230px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.productNameCart{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    height: 30px;
+    margin: 10px 0 0 0;
+}
+
+.productPriceCart{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    height: 25px;
+    margin: 5px;
+    color: #919496;
+}
+
+
+.totalAmountCart{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    height: 25px;
+    margin: 5px;
+    color: #fa5b2f;
+}
+
+.totalBottom{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    height: 25px;
+    margin: 5px;
+    color: #fa5b2f;
+}
+
+.removeItemBtn{
+    height: 30px;
+    width: 30px;
+    font-weight: 900;
+    border-radius: 10px;
+    background-color: #add8e6;
+    text-align: center;
+}
+
+.editAmount{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.editAmountBtn{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    color: #909294;
+}
+
+.backToShop {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
